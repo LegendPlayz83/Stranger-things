@@ -26,13 +26,13 @@ function startQuiz(){
     score = 0;
     startScreen.classList.add("hidden");
     resultScreen.classList.add("hidden");
-    quizScreen.classList.add("hidden");
+    quizScreen.classList.remove("hidden");
     showQuestion();
 }
 
 function showQuestion(){
     const current = questions[currentQuestion];
-    questionCount.textContent = 'Question ${currentQuestion + 1} of ${questions.length}';
+    questionCount.textContent = `Question ${currentQuestion + 1} of ${questions.length}`;
     questionText.textContent = current.question;
     optionsBox.innerHTML = "";
     current.options.forEach((option) => {
@@ -75,5 +75,5 @@ function selectAnswer(button, selectedOption){
 function showResults(){
     quizScreen.classList.add("hidden");
     resultScreen.classList.remove("hidden");
-    scoreText.textContent = 'You scored ${score} out of ${question.length}';
+    scoreText.textContent = `You scored ${score} out of ${questions.length}`;
 }
