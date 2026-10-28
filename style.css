@@ -9,17 +9,16 @@ body{
     flex-direction: column;
 }
 
+.logo img{
+    height: 40px;
+    width: auto;
+    display: block;
+}
+
 .navbar{
     background-color: #000000;
     padding: 15px 30px;
     border-bottom: 3px solid #e31b23;
-}
-
-.logo{
-    font-weight: bold;
-    font-size: 22px;
-    color: #e31b23;
-    letter-spacing: 1px;
 }
 
 main{
