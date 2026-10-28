@@ -54,7 +54,6 @@ main{
 }
 
 .screen{
-    max-width: 1100px;
     width: 100%;
     text-align: center;
 }
@@ -143,4 +142,8 @@ footer{
     background-color: #000000;
     color: #e31b23;
     margin-top: auto;
+}
+
+#home-logo{
+    cursor: pointer;
 }
