@@ -15,10 +15,34 @@ body{
     display: block;
 }
 
+.side-img{
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
 .navbar{
     background-color: #000000;
     padding: 15px 30px;
     border-bottom: 3px solid #e31b23;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1100px;
+    width: 100%;
+}
+
+.start-text{
+    flex: 1;
+    text-align: center;
 }
 
 main{
@@ -30,7 +54,7 @@ main{
 }
 
 .screen{
-    max-width: 600px;
+    max-width: 1100px;
     width: 100%;
     text-align: center;
 }
