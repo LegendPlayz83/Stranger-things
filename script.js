@@ -16,12 +16,12 @@ const questions = [
     },
     {
         question : "What is the name of the main villain in Season 4?",
-        option : ["The Mind Flayer", "Vecna", "Billy", "Henry Creel"],
+        options : ["The Mind Flayer", "Vecna", "Billy", "Henry Creel"],
         answer : "Vecna"
     },
     {
         question : "Which song helps save Max in Season 4?",
-        option : ["Every Breath You Take - The Police", "Master Of Puppets - Metallica", "Running Up That Hill - Kate Bush", "Should I Stay Or Should I Go - The Clash"],
+        options : ["Every Breath You Take - The Police", "Master Of Puppets - Metallica", "Running Up That Hill - Kate Bush", "Should I Stay Or Should I Go - The Clash"],
         answer : "Running Up That Hill - Kate Bush"
     }
 ];
